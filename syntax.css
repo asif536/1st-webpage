@@ -1,0 +1,132 @@
+body{ background-color: lightgray;
+margin: 0.63em; 
+}
+
+h1{text-align: center;
+color:coral;
+font-size: 3.13em;text-emphasis-position: 1.88em; font-family: cursive; margin: 0; padding: 0;
+}
+#header{
+    background-image: url(C:/Users/user/Documents/web/light-effects-1197152-1280x960.jpg ); padding: 0.75em;     margin-left: 17.5em;
+}
+#main-navigation ul{
+    text-align: right;
+    list-style-type: none;   
+font-family: arial;
+ text-transform: uppercase; }
+
+
+#main-navigation li{
+ display:inline-block;
+padding: 0.63em; 
+}    #main-navigation li:hover{
+    background-color:burlywood;
+}
+aside li:hover{
+    background-color: burlywood;
+}
+aside a:hover{
+    color: green;
+}
+#main-navigation a:hover{
+    color: green;
+}
+#main-navigation a:active{
+    color: red;
+}
+/* #main-navigation a:visited{
+color:green;
+}*/
+
+#main-navigation a{ background: #aadddd;
+ width: 7em;
+    display: block;
+    border: 0.0625 solid #77aaaa;
+    color: blue;
+    text-align: center;
+    box-shadow: 0.125em 0.125em .25em .125em rgba(40,40,40,0.6 );
+ border-radius: 0.25em; 
+text-decoration: none;} 
+
+aside{float: left;
+    vertical-align: baseline;
+    background-image:url(C:/Users/user/Documents/web/light-effects-1197152-1280x960.jpg);
+    height: 71.8em;
+    width: 17em;
+cursor: pointer;
+}
+
+aside ul{ 
+    list-style-type: none;
+font-size: 1.25em;
+padding: 0.938em;
+    margin: 1.25em;
+}
+
+aside li{
+    padding: 0.938em; text-transform: uppercase;
+    text-align: center; font-family: fantasy;
+    }
+
+h2{
+    color: coral;
+    margin: 0.75em;
+    text-transform: uppercase;
+
+}
+ 
+ aside a{
+    display: block;
+    background-image: url(C:/Users/user/Documents/web/dot-pattern-1-1142158-1278x752.jpg);
+    color: brown;
+    padding: 0.63em;
+}
+
+
+#photo img {
+    margin:3.13em;
+padding: 0; 
+display: block;
+    -webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+}
+#photo:hover img {
+    -webkit-transform:scale(1.25);
+-moz-transform:scale(1.25);}
+
+#photo{ 
+width: 79%;
+    height:21.25em;
+background-color: cadetblue;
+margin:17.5em;
+ padding-top: 0;
+padding-bottom: 0;
+margin-top: 0; 
+display: flex;
+
+}
+
+#shop{
+    width: 79%;
+    height:21.25em;
+background-color: cadetblue;
+margin:17.5em;
+ padding-top: 0;
+padding-bottom: 0;
+margin-top: 0; 
+display: flex;
+    }
+
+#shop img{
+    
+   margin:3.13em;
+    padding: 0; 
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;}
+#shop:hover img{
+    -webkit-transform:scale(1.25);
+-moz-transform:scale(1.25);
+}
+marquee{color: blue;
+ font-size: 1.88em;}
+
